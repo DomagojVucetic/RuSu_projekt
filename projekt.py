@@ -342,6 +342,7 @@ years_of_experience = st.number_input("Enter your years of experience:")
 years_at_company = st.number_input("Enter your years at the current company:")
 
 # Create a DataFrame with the user's input
+#user_data = pd.DataFrame([[years_of_experience, years_at_company]], columns=['total_experience_years', 'employer_experience_years'])
 user_data = pd.DataFrame([[years_of_experience, years_at_company]], columns=['yearsofexperience', 'yearsatcompany'])
 
 # Predict the salary using the trained models
